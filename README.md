@@ -252,7 +252,7 @@ Die eigenen Implementierungen sind für **Lernzwecke** optimiert (Verständnis d
 
 ## Autor
 
-Studentin: Data Science, FHNW  
+Studentin: Mila Brutenic, Data Science & AI, FHNW  
 Modul: Vertiefende Themen der Analysis (VTA)  
 Semester: Herbstsemester 2025  
 Dozent: Roger Burkhardt
