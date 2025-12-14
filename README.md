@@ -13,7 +13,7 @@ Dieses Repository enthält die Lösungen für die Mini-Challenge 2 im Modul "Ver
 Implementierung einer eigenen diskreten Fouriertransformation mit zwei Methoden:
 
 1. **Reihenapproximation**: Verwendung der Euler-Formel 
-   - $e^{-ix} = \cos(x) - i\sin(x)$
+   - $e^{ix} = \cos(x) + i\sin(x)$
    
 2. **Numerische Integration**: Berechnung der Fourierkoeffizienten
    - $a_k = \frac{2}{T} \int_0^T f(t) \cos(k \cdot \frac{2\pi}{T} \cdot t) \, dt$
