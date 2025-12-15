@@ -58,7 +58,7 @@ Visualisierung des Amplitudenspektrums von drei 2D-Funktionen:
 2. **Kreis**: 
    $$f(x,y) = \begin{cases} 1 & \sqrt{x^2 + y^2} \leq 1 \\ 0 & \text{sonst} \end{cases}$$
 
-3. **2D-Gauß**: 
+3. **2D-Gauss**: 
    $$f(x,y) = \frac{1}{2\pi} e^{-\frac{\sqrt{x^2 + y^2}}{2}}$$
 
 **Parameter**: Bereich $[-2, 2] \times [-2, 2]$ mit $64 \times 64$ Datenpunkten
@@ -88,7 +88,7 @@ Fourier-basierte Bildfilterung mit Tiefpass- und Hochpassfiltern.
 
 ### Voraussetzungen
 ```bash
-pip install numpy scipy matplotlib pandas pillow
+pip install numpy scipy matplotlib pandas pillow timeit
 ```
 
 ### Verwendete Bibliotheken
@@ -98,6 +98,7 @@ pip install numpy scipy matplotlib pandas pillow
 - `matplotlib`: Visualisierung
 - `pandas`: Datenverarbeitung (CSV)
 - `pillow`: Bildverarbeitung
+- 'timeit': Messen von Performance
 
 ---
 
@@ -181,7 +182,8 @@ python aufgabe4_bildfilterung.py
 - f₁ = 16.00 Hz → Schwellenabstand ≈ **87 cm**
 - f₂ = 71.20 Hz → Schwellenabstand ≈ 20 cm (Harmonische)
 
-✅ **Interpretation**: Der geschätzte Schwellenabstand von ~87 cm liegt im typischen Bereich für Tramgleise (60-80 cm)
+✅ **Interpretation**: Der geschätzte Schwellenabstand von ~87 cm liegt im typischen Bereich für Tramgleise (60-80 cm). 
+Geschätzter Schwellenabstand (Mittelwert) liegt bei ~53 cm.
 
 ---
 
@@ -199,7 +201,7 @@ python aufgabe4_bildfilterung.py
    
 3. **2D-Gauß**: 
    - Glatte Funktion → konzentriert bei niedrigen Frequenzen
-   - Gauß bleibt Gauß unter Fouriertransformation
+   - Gauss bleibt Gauss unter Fouriertransformation
 
 ---
 
